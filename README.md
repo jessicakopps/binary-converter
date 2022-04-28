@@ -1,6 +1,7 @@
 # Binary Converter
 
-Converter method for binary to decimal and decimal to binary.
+A binary converter - binary to decimal and decimal to binary.
+<br>
 <br>
 
 ### Technologies used:
