@@ -2,14 +2,14 @@
     
     public static int binarioParaDecimal(int[] vetor){
         int index = 0;
-        int binarioParaDecimal = 0;
+        int binario = 0;
         for(int i = vetor.length -1; i >= 0; i--){
             if(vetor[i] == 1){
-                binarioParaDecimal += Math.pow(2,index);
+                binario += Math.pow(2,index);
             }
             index++;
         }
-        return binarioParaDecimal;
+        return binario;
     }
 
     public static String decimalParaBinario(int valor){
